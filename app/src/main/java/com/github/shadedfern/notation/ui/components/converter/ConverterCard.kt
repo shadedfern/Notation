@@ -46,8 +46,8 @@ fun ConverterCard(
         ),
         modifier = Modifier
             .fillMaxWidth()
-            .fillMaxHeight()
-            .padding(top = 240.dp)
+            .height(300.dp)
+            .padding(top = 170.dp)
     ) {
         Column(
             modifier = Modifier

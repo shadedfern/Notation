@@ -49,8 +49,8 @@ fun TasksCard(
         ),
         modifier = modifier
             .fillMaxWidth()
-            .fillMaxHeight()
-            .padding(top = 160.dp)
+            .height(300.dp)
+            .padding(top = 100.dp)
     ) {
         Column(
             modifier = Modifier
