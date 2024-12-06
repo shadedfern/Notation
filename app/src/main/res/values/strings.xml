@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Notation</string>
+    <string name="check_button">Проверить</string>>
+    <string name="hint_button">Подсказка</string>>
+    <string name="hint_title">Подсказка</string>>
+    <string name="thanks_dialogue">Спасибо</string>>
+    <string name="convert_button">Конвертировать</string>>
+    <string name="confirm_dialogue">Подтвердить</string>>
+    <string name="tasks_navigation">Тренажёр</string>>
+    <string name="converter_navigation">Конвертер</string>>
+    <string name="initial_radix">Исходная система</string>>
+    <string name="target_radix">Целевая система</string>>
+    <string name="result_right">Верно!</string>>
+    <string name="result_wrong">Неверно :(</string>>
+    <string name="label_tasks">Ответ</string>>
+    <string name="label_convert">Число</string>>
+    <string name="title_tasks">Сможешь решить этот пример?</string>>
+    <string name="subtitle_tasks">Заполни ответ в поле</string>>
+    <string name="title_convert">Конвертация</string>>
+    <string name="subtitle_convert">Попробуй, это просто!</string>>
+</resources>
