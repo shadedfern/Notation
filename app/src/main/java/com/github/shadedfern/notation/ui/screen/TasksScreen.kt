@@ -34,6 +34,11 @@ fun TasksScreen(modifier: Modifier = Modifier) {
 
     var showHint by remember { mutableStateOf(false) }
 
+    LaunchedEffect(decimalNumber, radixPair) {
+        targetValue = decimalNumber.toString(targetRadix)
+        initialValue = decimalNumber.toString(initialRadix)
+    }
+
     Scaffold(
         topBar = {
             TopBar()
@@ -117,8 +122,6 @@ fun TasksScreen(modifier: Modifier = Modifier) {
                         radixPair = radixChoice()
                         decimalNumber = Random.nextInt(2, 512)
                         val (initialRadix, _) = radixPair
-                        initialValue = decimalNumber.toString(initialRadix)
-                        targetValue = decimalNumber.toString(targetRadix)
                         userInput = ""
                         result = ""
                         isError = false
